@@ -1,0 +1,114 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-title {
+  font-family: "Ubuntu Bold", sans-serif;
+  color: white;
+  font-size: 38px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.container {
+  display: grid;
+  gap: 2rem;
+}
+
+.note-card {
+  background-color: #171717;
+  border: 2px solid rgba(10, 13, 23, 0.05);
+  border-radius: 12px;
+  width: 100%;
+  max-width: 35rem;
+  padding: 25px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.note-item {
+  background-color: #2a2a2a;
+  border-radius: 12px;
+  padding: 20px;
+  position: relative;
+  margin-bottom: 0px;
+}
+
+.note-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  user-select: none;
+}
+
+.note-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  user-select: text;
+}
+
+.star-icon.active path {
+  fill: yellow;
+  stroke: yellow;
+}
+
+.star-icon {
+  width: 24px;
+  height: 24px;
+  color: #666;
+  cursor: pointer;
+}
+
+.note-content {
+  font-size: 16px;
+  color: #ccc;
+  line-height: 1.5;
+  margin-bottom: 80px;
+  white-space: pre-wrap;
+}
+
+.note-meta {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.note-actions {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.note-deleted-actions {
+  display: flex;
+  justify-content: start;
+  gap: 15px;
+}
+
+.action-btn {
+  background-color: #404040;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 16px;
+  color: #ccc;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px;
+  transition: background-color 0.2s ease;
+}
+
+.action-btn:hover {
+  background-color: #505050;
+}
+
+.action-icon {
+  width: 16px;
+  height: 16px;
+}

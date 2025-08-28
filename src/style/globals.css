@@ -1,0 +1,51 @@
+html {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #101010;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.content {
+  opacity: 0;
+  animation: smoothLoad 0.3s ease-out forwards;
+}
+
+@keyframes smoothLoad {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url(../../fonts/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Ubuntu Medium";
+  src: url(../../fonts/Ubuntu-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Ubuntu Bold";
+  src: url(../../fonts/Ubuntu-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Ubuntu Light";
+  src: url(../../fonts/Ubuntu-Light.ttf);
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(../../fonts/Inter_18pt-Regular.ttf);
+}

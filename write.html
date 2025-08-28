@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NotesApp - Write</title>
+    <link
+      rel="shortcut icon"
+      href="assets/Logos NotesAPP.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="src/style/write.css" />
+    <link rel="stylesheet" href="src/style/globals.css" />
+  </head>
+  <body>
+    <side-bar></side-bar>
+    <nav-bar></nav-bar>
+    <div class="content">
+      <main>
+        <h1 class="note-title">Write a Note</h1>
+        <div class="note-container">
+          <form id="noteForm">
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-input"
+                placeholder="Note title..."
+                id="noteTitle"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <textarea
+                class="form-input note-content"
+                placeholder="Note Content..."
+                id="noteContent"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="add-note-btn">Add Note</button>
+
+            <div
+              class="shortcut-hints"
+              style="
+                margin-top: 15px;
+                text-align: center;
+                color: #888;
+                font-size: 14px;
+              "
+            >
+              <small>
+                💡 Tip: Use <kbd>Ctrl+S</kbd> to save • <kbd>Ctrl+Enter</kbd> to
+                save & go back
+              </small>
+            </div>
+          </form>
+        </div>
+      </main>
+    </div>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>

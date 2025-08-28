@@ -1,0 +1,100 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.note-title {
+  font-family: "Ubuntu Bold", sans-serif;
+  color: white;
+  font-size: 38px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.note-container {
+  background-color: #1f1f1f;
+  border: 2px solid rgba(10, 13, 23, 0.05);
+  border-radius: 12px;
+  width: 100%;
+  max-width: 35rem;
+  padding: 25px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-input {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #2c2c2c;
+  border: none;
+  border-radius: 8px;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.form-input::placeholder {
+  color: rgba(255, 255, 255, 0.34);
+}
+
+.form-input:focus {
+  background-color: #404040;
+  color: white;
+}
+
+.form-input::placeholder {
+  color: #666;
+}
+
+.note-content {
+  min-height: 150px;
+  resize: vertical;
+  font-family: inherit;
+}
+
+.add-note-btn {
+  width: 100%;
+  background: linear-gradient(135deg, #4a90e2 0%, #357abd 100%);
+  border: none;
+  border-radius: 8px;
+  padding: 15px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+}
+
+.add-note-btn:hover {
+  background: linear-gradient(135deg, #357abd 0%, #2968a3 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(74, 144, 226, 0.3);
+}
+
+.add-note-btn:active {
+  transform: translateY(0);
+}
+
+#noteContent {
+  white-space: pre-wrap;
+}
+
+@media (max-width: 600px) {
+  .note-container {
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .note-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}

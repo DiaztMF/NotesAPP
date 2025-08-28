@@ -1,0 +1,69 @@
+body {
+  background: linear-gradient(65deg, #101010 0%, #171717 50%, #101010 100%);
+}
+
+.main-slogan {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 0;
+  background: linear-gradient(83deg, #59ff72 0%, #32cd32 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+}
+
+.second-slogan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn-getstarted {
+  display: flex;
+  justify-self: center;
+  background: #0d0d0d;
+  color: #59ff72;
+  font-size: 26px;
+  border-radius: 8px;
+  border-color: #59ff72;
+  padding: 18px 30px;
+  margin-top: 30px;
+}
+
+.ellipse1 {
+  position: absolute;
+  bottom: 0px;
+  left: -100px;
+}
+
+.ellipse2 {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: auto;
+  height: 420px;
+}
+
+.pencils {
+  position: absolute;
+  bottom: 50px;
+  left: -15px;
+  z-index: 1;
+}
+
+.book {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: auto;
+  height: 350px;
+}

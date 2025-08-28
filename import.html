@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NotesApp - Import</title>
+    <link
+      rel="shortcut icon"
+      href="assets/Logos NotesAPP.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="src/style/import.css" />
+    <link rel="stylesheet" href="src/style/write.css" />
+    <link rel="stylesheet" href="src/style/globals.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.4.2/mammoth.browser.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+  </head>
+  <body>
+    <side-bar></side-bar>
+    <nav-bar></nav-bar>
+    <div class="content">
+      <main>
+        <div class="upload-container">
+          <!-- Header Section -->
+          <div class="upload-header">
+            <h1 class="upload-title">File Upload</h1>
+            <p class="upload-subtitle">
+              Choose a file and upload securely to proceed.
+            </p>
+          </div>
+
+          <!-- Upload Area -->
+          <div id="upload-area" class="upload-area">
+            <div class="upload-icon">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z"
+                />
+                <path d="M8,12H16V14H8V12M8,16H13V18H8V16M8,8H10V10H8V8Z" />
+              </svg>
+            </div>
+            <div class="upload-text" id="main-status-container">
+              Drag and drop your files
+            </div>
+            <div class="upload-formats" id="status-container">
+              DOCX, PDF, TXT, and JSON formats, up to 5MB
+            </div>
+            <button type="button" class="select-file-btn">Select File</button>
+          </div>
+
+          <!-- Hidden File Input -->
+          <input type="file" id="file-input" accept=".docx,.pdf,.txt,.json" />
+
+          <!-- Action Buttons -->
+          <div class="button-group">
+            <button type="button" class="cancel-btn" id="cancel-btn">
+              Cancel
+            </button>
+            <button type="button" class="process-btn" id="process-btn" disabled>
+              Process File
+            </button>
+          </div>
+        </div>
+        <div class="note-container" id="results-container">
+          <form id="noteForm">
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-input"
+                placeholder="Note title..."
+                id="noteTitle"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <textarea
+                class="form-input note-content"
+                placeholder="Note Content..."
+                id="noteContent"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="add-note-btn">Add Note</button>
+          </form>
+        </div>
+      </main>
+    </div>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>

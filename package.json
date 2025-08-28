@@ -1,0 +1,20 @@
+{
+  "name": "notesapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "Diazt Muhammad Firmansyah",
+  "license": "ISC",
+  "description": "A simple yet powerful NotesApp with full features, accessible without login, designed for speed and ease of use.",
+  "devDependencies": {
+    "@eslint/js": "^9.34.0",
+    "eslint": "^9.34.0",
+    "globals": "^16.3.0",
+    "prettier": "^3.6.2"
+  }
+}
