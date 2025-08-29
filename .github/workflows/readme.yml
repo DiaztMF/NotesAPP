@@ -2,8 +2,8 @@ name: Auto Generate README
 
 on:
   push:
-    branches: [ main ]   # jalan otomatis tiap ada push ke branch main
-  workflow_dispatch:      # bisa dijalankan manual dari tab Actions
+    branches: [ main ]   
+  workflow_dispatch:  
 
 jobs:
   build:
@@ -19,10 +19,10 @@ jobs:
           python-version: '3.x'
 
       - name: Install readme-ai
-        run: pip install readmeai
+        run: pip install --upgrade pip && pip install readmeai
 
       - name: Generate README
-        run: readmeai init .
+        run: readmeai init -r ${{ github.repository }}
 
       - name: Commit & Push README
         run: |
