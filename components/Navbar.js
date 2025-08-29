@@ -17,7 +17,7 @@ class Navbar extends HTMLElement {
           <nav class="links" role="navigation" aria-label="Main navigation">
             <a href="index.html" class="text-wrapper" aria-current="page">Home</a>
             <a href="about.html" class="text-wrapper">About</a>
-            <a href="" class="text-wrapper">Documentation</a>
+            <a href="https://github.com/DiaztMF/NotesAPP/" class="text-wrapper">Documentation</a>
           </nav>
           <a href="contact.html">
             <button class="btn-contact" type="button" aria-label="Contact us">
