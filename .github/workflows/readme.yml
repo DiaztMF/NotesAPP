@@ -22,7 +22,7 @@ jobs:
         run: pip install --upgrade pip && pip install readmeai
 
       - name: Generate README
-        run: readmeai --repository https://github.com/DiaztMF/NotesAPP
+        run: readmeai --repository https://github.com/DiaztMF/NotesAPP --output README.md
 
       - name: Commit & Push README
         run: |
