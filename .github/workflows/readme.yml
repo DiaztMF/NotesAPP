@@ -1,0 +1,33 @@
+name: Auto Generate README
+
+on:
+  push:
+    branches: [ main ]   # jalan otomatis tiap ada push ke branch main
+  workflow_dispatch:      # bisa dijalankan manual dari tab Actions
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install readme-ai
+        run: pip install readmeai
+
+      - name: Generate README
+        run: readmeai init .
+
+      - name: Commit & Push README
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: auto-generate README.md" || echo "No changes to commit"
+          git push
