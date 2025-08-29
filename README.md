@@ -3,7 +3,7 @@
 <!-- HEADER STYLE: CLASSIC -->
 <div align="center">
 
-<img src="assets/Logos NotesAPP.svg" width="30%" style="position: relative; top: 0; right: 0;" alt="Project Logo"/>
+<img src="readmeai/assets/logos/purple.svg" width="30%" style="position: relative; top: 0; right: 0;" alt="Project Logo"/>
 
 # NOTESAPP
 
@@ -62,6 +62,7 @@
 └── NotesAPP/
     ├── .github
     │   └── workflows
+    ├── README.md
     ├── about.html
     ├── archive.html
     ├── assets
