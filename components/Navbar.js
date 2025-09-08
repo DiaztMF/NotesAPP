@@ -8,18 +8,18 @@ class Navbar extends HTMLElement {
             <span></span>
             <span></span>
             <span></span>
-          </label>
+          </label>  
         </div>
         <div class="navbar">
           <div class="nav-brand">
             <a href="index.html"><span class="notes">Notes</span>App</a>
           </div>
-          <nav class="links" role="navigation" aria-label="Main navigation">
+          <nav class="links hide-mobile" role="navigation" aria-label="Main navigation">
             <a href="index.html" class="text-wrapper" aria-current="page">Home</a>
             <a href="about.html" class="text-wrapper">About</a>
             <a href="https://github.com/DiaztMF/NotesAPP/" class="text-wrapper">Documentation</a>
           </nav>
-          <a href="contact.html">
+          <a class="hide-mobile" href="contact.html">
             <button class="btn-contact" type="button" aria-label="Contact us">
               <span class="contact">Contact Us</span>
             </button>
@@ -160,7 +160,11 @@ class Navbar extends HTMLElement {
             padding: 20px;
           }
 
-          
+          @media screen and (max-width: 767px) {
+            .hide-mobile {
+              display: none !important;
+            }
+          }
           /* Navigation Bar End */
         </style>
       </header>

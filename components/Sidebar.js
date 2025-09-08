@@ -125,6 +125,9 @@ class Sidebar extends HTMLElement {
       <style>
         /* Sidebar Start */
         .sidebar {  
+          overflow-y: scroll;
+          scrollbar-width: none;
+          overflow-x: hidden;
           position: fixed;
           left: -250px;
           background-color: #171717;

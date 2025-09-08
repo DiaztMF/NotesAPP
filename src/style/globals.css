@@ -1,5 +1,6 @@
 html {
   overflow-y: scroll;
+  scrollbar-width: none;
   overflow-x: hidden;
 }
 
