@@ -10,7 +10,7 @@
 <em></em>
 
 <!-- BADGES -->
-<img src="https://img.shields.io/github/license/DiaztMF/NotesAPP?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
+<img src="https://img.shields.io/github/license/DiaztMF/NotesAPP?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff&cacheSeconds=60" alt="license">
 <img src="https://img.shields.io/github/last-commit/DiaztMF/NotesAPP?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
 <img src="https://img.shields.io/badge/tech-JavaScript-0080ff?style=default&logo=javascript&logoColor=white" alt="tech">
 <img src="https://img.shields.io/github/languages/count/DiaztMF/NotesAPP?style=default&color=0080ff" alt="repo-language-count">
