@@ -46,13 +46,22 @@
 
 ## Overview
 
-
+NotesApp is a simple and modern note-taking web application built with HTML, CSS, and JavaScript.
+The application allows users to create, edit, delete, and manage their notes seamlessly with a responsive and user-friendly interface.
 
 ---
 
 ## Features
 
-<code>❯ REPLACE-ME</code>
+📝 CRUD Functionality: Create, Read, Update, and Delete notes.
+
+💾 Local Storage Support: Notes are saved directly in the browser’s local storage.
+
+🎨 Responsive Design: Clean UI with dark mode support.
+
+🔔 Extra Features: Documentation, user feedback, and modal-based editing for a better user experience.
+
+📤 Third-party Service: Integrated with EmailJS to send user feedback directly to the developer’s email.
 
 ---
 
