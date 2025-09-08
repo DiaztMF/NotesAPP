@@ -36,8 +36,6 @@
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
     - [Usage](#usage)
-    - [Testing](#testing)
-- [Roadmap](#roadmap)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
@@ -109,7 +107,7 @@ The application allows users to create, edit, delete, and manage their notes sea
 ### Project Index
 
 <details open>
-	<summary><b><code>NOTESAPP/</code></b></summary>
+	<summary><b><code>notesapp</code></b></summary>
 	<!-- __root__ Submodule -->
 	<details>
 		<summary><b>__root__</b></summary>
@@ -125,59 +123,59 @@ The application allows users to create, edit, delete, and manage their notes sea
 			</thead>
 				<tr style='border-bottom: 1px solid #eee;'>
 					<td style='padding: 8px;'><b><a href='https://github.com/DiaztMF/NotesAPP/blob/master/index.js'>index.js</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+					<td style='padding: 8px;'>Main entry point of the application, initializes and connects features.</code></td>
 				</tr>
 				<tr style='border-bottom: 1px solid #eee;'>
 					<td style='padding: 8px;'><b><a href='https://github.com/DiaztMF/NotesAPP/blob/master/import.html'>import.html</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+					<td style='padding: 8px;'>Page for importing notes from external files.</code></td>
 				</tr>
 				<tr style='border-bottom: 1px solid #eee;'>
 					<td style='padding: 8px;'><b><a href='https://github.com/DiaztMF/NotesAPP/blob/master/package-lock.json'>package-lock.json</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+					<td style='padding: 8px;'>Dependency lock file to ensure consistency across installations.</code></td>
 				</tr>
 				<tr style='border-bottom: 1px solid #eee;'>
 					<td style='padding: 8px;'><b><a href='https://github.com/DiaztMF/NotesAPP/blob/master/notes.html'>notes.html</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+					<td style='padding: 8px;'>Main page that displays the list of notes.</code></td>
 				</tr>
 				<tr style='border-bottom: 1px solid #eee;'>
 					<td style='padding: 8px;'><b><a href='https://github.com/DiaztMF/NotesAPP/blob/master/export.html'>export.html</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+					<td style='padding: 8px;'>Page for exporting notes to external file formats.</code></td>
 				</tr>
 				<tr style='border-bottom: 1px solid #eee;'>
 					<td style='padding: 8px;'><b><a href='https://github.com/DiaztMF/NotesAPP/blob/master/favorite.html'>favorite.html</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+					<td style='padding: 8px;'>Page for displaying favorite notes.</code></td>
 				</tr>
 				<tr style='border-bottom: 1px solid #eee;'>
 					<td style='padding: 8px;'><b><a href='https://github.com/DiaztMF/NotesAPP/blob/master/archive.html'>archive.html</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+					<td style='padding: 8px;'>Page for archived notes that have been moved from the main list.</code></td>
 				</tr>
 				<tr style='border-bottom: 1px solid #eee;'>
 					<td style='padding: 8px;'><b><a href='https://github.com/DiaztMF/NotesAPP/blob/master/eslint.config.mjs'>eslint.config.mjs</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+					<td style='padding: 8px;'>ESLint configuration file for maintaining JavaScript code quality.</code></td>
 				</tr>
 				<tr style='border-bottom: 1px solid #eee;'>
 					<td style='padding: 8px;'><b><a href='https://github.com/DiaztMF/NotesAPP/blob/master/write.html'>write.html</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+					<td style='padding: 8px;'>Page for writing a new note.</code></td>
 				</tr>
 				<tr style='border-bottom: 1px solid #eee;'>
 					<td style='padding: 8px;'><b><a href='https://github.com/DiaztMF/NotesAPP/blob/master/trash.html'>trash.html</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+					<td style='padding: 8px;'>Page for displaying deleted notes (trash bin).</code></td>
 				</tr>
 				<tr style='border-bottom: 1px solid #eee;'>
 					<td style='padding: 8px;'><b><a href='https://github.com/DiaztMF/NotesAPP/blob/master/package.json'>package.json</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+					<td style='padding: 8px;'>Node.js configuration file containing project dependencies and scripts.</code></td>
 				</tr>
 				<tr style='border-bottom: 1px solid #eee;'>
 					<td style='padding: 8px;'><b><a href='https://github.com/DiaztMF/NotesAPP/blob/master/about.html'>about.html</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+					<td style='padding: 8px;'>Page that provides information about the NotesApp project.</code></td>
 				</tr>
 				<tr style='border-bottom: 1px solid #eee;'>
 					<td style='padding: 8px;'><b><a href='https://github.com/DiaztMF/NotesAPP/blob/master/contact.html'>contact.html</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+					<td style='padding: 8px;'>Page that contains contact details or feedback form for users.</code></td>
 				</tr>
 				<tr style='border-bottom: 1px solid #eee;'>
 					<td style='padding: 8px;'><b><a href='https://github.com/DiaztMF/NotesAPP/blob/master/index.html'>index.html</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+					<td style='padding: 8px;'>Landing page of the application, entry point for users.</code></td>
 				</tr>
 			</table>
 		</blockquote>
@@ -196,25 +194,25 @@ The application allows users to create, edit, delete, and manage their notes sea
 				</tr>
 			</thead>
 				<tr style='border-bottom: 1px solid #eee;'>
-					<td style='padding: 8px;'><b><a href='https://github.com/DiaztMF/NotesAPP/blob/master/fonts/Ubuntu-Medium.ttf'>Ubuntu-Medium.ttf</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
-				</tr>
-				<tr style='border-bottom: 1px solid #eee;'>
-					<td style='padding: 8px;'><b><a href='https://github.com/DiaztMF/NotesAPP/blob/master/fonts/Ubuntu-Regular.ttf'>Ubuntu-Regular.ttf</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
-				</tr>
-				<tr style='border-bottom: 1px solid #eee;'>
-					<td style='padding: 8px;'><b><a href='https://github.com/DiaztMF/NotesAPP/blob/master/fonts/Ubuntu-Light.ttf'>Ubuntu-Light.ttf</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
-				</tr>
-				<tr style='border-bottom: 1px solid #eee;'>
-					<td style='padding: 8px;'><b><a href='https://github.com/DiaztMF/NotesAPP/blob/master/fonts/Ubuntu-Bold.ttf'>Ubuntu-Bold.ttf</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
-				</tr>
-				<tr style='border-bottom: 1px solid #eee;'>
-					<td style='padding: 8px;'><b><a href='https://github.com/DiaztMF/NotesAPP/blob/master/fonts/Inter_18pt-Regular.ttf'>Inter_18pt-Regular.ttf</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
-				</tr>
+					  <td style='padding: 8px;'><b><a href='https://github.com/DiaztMF/NotesAPP/blob/master/fonts/Ubuntu-Medium.ttf'>Ubuntu-Medium.ttf</a></b></td>
+					  <td style='padding: 8px;'>Ubuntu-Medium font file used for the application’s typography.</td>
+					</tr>
+					<tr style='border-bottom: 1px solid #eee;'>
+					  <td style='padding: 8px;'><b><a href='https://github.com/DiaztMF/NotesAPP/blob/master/fonts/Ubuntu-Regular.ttf'>Ubuntu-Regular.ttf</a></b></td>
+					  <td style='padding: 8px;'>Ubuntu-Regular font file used for the application’s typography.</td>
+					</tr>
+					<tr style='border-bottom: 1px solid #eee;'>
+					  <td style='padding: 8px;'><b><a href='https://github.com/DiaztMF/NotesAPP/blob/master/fonts/Ubuntu-Light.ttf'>Ubuntu-Light.ttf</a></b></td>
+					  <td style='padding: 8px;'>Ubuntu-Light font file used for the application’s typography.</td>
+					</tr>
+					<tr style='border-bottom: 1px solid #eee;'>
+					  <td style='padding: 8px;'><b><a href='https://github.com/DiaztMF/NotesAPP/blob/master/fonts/Ubuntu-Bold.ttf'>Ubuntu-Bold.ttf</a></b></td>
+					  <td style='padding: 8px;'>Ubuntu-Bold font file used for the application’s typography.</td>
+					</tr>
+					<tr style='border-bottom: 1px solid #eee;'>
+					  <td style='padding: 8px;'><b><a href='https://github.com/DiaztMF/NotesAPP/blob/master/fonts/Inter_18pt-Regular.ttf'>Inter_18pt-Regular.ttf</a></b></td>
+					  <td style='padding: 8px;'>Inter-Regular font file used for the application’s typography.</td>
+					</tr>
 			</table>
 		</blockquote>
 	</details>
@@ -232,12 +230,12 @@ The application allows users to create, edit, delete, and manage their notes sea
 				</tr>
 			</thead>
 				<tr style='border-bottom: 1px solid #eee;'>
-					<td style='padding: 8px;'><b><a href='https://github.com/DiaztMF/NotesAPP/blob/master/components/Sidebar.js'>Sidebar.js</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+				  <td style='padding: 8px;'><b><a href='https://github.com/DiaztMF/NotesAPP/blob/master/components/Sidebar.js'>Sidebar.js</a></b></td>
+				  <td style='padding: 8px;'>Defines a reusable sidebar component that provides quick navigation links within the application.</td>
 				</tr>
 				<tr style='border-bottom: 1px solid #eee;'>
-					<td style='padding: 8px;'><b><a href='https://github.com/DiaztMF/NotesAPP/blob/master/components/Navbar.js'>Navbar.js</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+				  <td style='padding: 8px;'><b><a href='https://github.com/DiaztMF/NotesAPP/blob/master/components/Navbar.js'>Navbar.js</a></b></td>
+				  <td style='padding: 8px;'>Defines a reusable navigation bar component with branding, navigation links, and a contact button.</td>
 				</tr>
 			</table>
 		</blockquote>
@@ -263,31 +261,31 @@ The application allows users to create, edit, delete, and manage their notes sea
 					</thead>
 						<tr style='border-bottom: 1px solid #eee;'>
 							<td style='padding: 8px;'><b><a href='https://github.com/DiaztMF/NotesAPP/blob/master/src/style/write.css'>write.css</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+							<td style='padding: 8px;'>Stylesheet for the writes page, including layout, form styling, note container, and responsive design.</code></td>	
 						</tr>
 						<tr style='border-bottom: 1px solid #eee;'>
-							<td style='padding: 8px;'><b><a href='https://github.com/DiaztMF/NotesAPP/blob/master/src/style/globals.css'>globals.css</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+						  <td style='padding: 8px;'><b><a href='https://github.com/DiaztMF/NotesAPP/blob/master/src/style/globals.css'>globals.css</a></b></td>
+						  <td style='padding: 8px;'>Global stylesheet defining base styles, smooth load animation, scrollbar behavior, and custom font imports.</td>
 						</tr>
 						<tr style='border-bottom: 1px solid #eee;'>
 							<td style='padding: 8px;'><b><a href='https://github.com/DiaztMF/NotesAPP/blob/master/src/style/import.css'>import.css</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+							<td style='padding: 8px;'>Styles the file import UI, including upload container, drag-and-drop area, buttons, and responsive layout.</td>
 						</tr>
 						<tr style='border-bottom: 1px solid #eee;'>
 							<td style='padding: 8px;'><b><a href='https://github.com/DiaztMF/NotesAPP/blob/master/src/style/about.css'>about.css</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+							<td style='padding: 8px;'>Defines the About page layout using grid, with styled titles, feature sections, and credits for tech stacks and reference.</td>
 						</tr>
 						<tr style='border-bottom: 1px solid #eee;'>
 							<td style='padding: 8px;'><b><a href='https://github.com/DiaztMF/NotesAPP/blob/master/src/style/contact.css'>contact.css</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+							<td style='padding: 8px;'>Styles the Contact Page with a responsive two-column layout, form design, social media icons, and animated loader overlay./code></td>
 						</tr>
 						<tr style='border-bottom: 1px solid #eee;'>
 							<td style='padding: 8px;'><b><a href='https://github.com/DiaztMF/NotesAPP/blob/master/src/style/styles.css'>styles.css</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+							<td style='padding: 8px;'>Styles the landing page with gradient backgrounds, slogan typography, "Get Started" button, and decorative images.</code></td>
 						</tr>
 						<tr style='border-bottom: 1px solid #eee;'>
 							<td style='padding: 8px;'><b><a href='https://github.com/DiaztMF/NotesAPP/blob/master/src/style/notes.css'>notes.css</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+							<td style='padding: 8px;'>Styles the notes page with card layouts, note headers, content, metadata, star icons, and action buttons with hover effects.</code></td>
 						</tr>
 					</table>
 				</blockquote>
@@ -307,19 +305,19 @@ The application allows users to create, edit, delete, and manage their notes sea
 					</thead>
 						<tr style='border-bottom: 1px solid #eee;'>
 							<td style='padding: 8px;'><b><a href='https://github.com/DiaztMF/NotesAPP/blob/master/src/script/import-handler.js'>import-handler.js</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+							<td style='padding: 8px;'>Javascript code for import notes handler.</code></td>
 						</tr>
 						<tr style='border-bottom: 1px solid #eee;'>
 							<td style='padding: 8px;'><b><a href='https://github.com/DiaztMF/NotesAPP/blob/master/src/script/main.js'>main.js</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+							<td style='padding: 8px;'>Javascript code for main page handler</code></td>
 						</tr>
 						<tr style='border-bottom: 1px solid #eee;'>
 							<td style='padding: 8px;'><b><a href='https://github.com/DiaztMF/NotesAPP/blob/master/src/script/export-handler.js'>export-handler.js</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+							<td style='padding: 8px;'>Javascript code for export notes handler</code></td>
 						</tr>
 						<tr style='border-bottom: 1px solid #eee;'>
 							<td style='padding: 8px;'><b><a href='https://github.com/DiaztMF/NotesAPP/blob/master/src/script/integrated-notes-system.js'>integrated-notes-system.js</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+							<td style='padding: 8px;'>Javascript code for notes CRUD handler</code></td>
 						</tr>
 					</table>
 				</blockquote>
@@ -347,7 +345,7 @@ The application allows users to create, edit, delete, and manage their notes sea
 					</thead>
 						<tr style='border-bottom: 1px solid #eee;'>
 							<td style='padding: 8px;'><b><a href='https://github.com/DiaztMF/NotesAPP/blob/master/.github/workflows/readme.yml'>readme.yml</a></b></td>
-							<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+							<td style='padding: 8px;'>Workflow code for readme generation</code></td>
 						</tr>
 					</table>
 				</blockquote>
@@ -364,12 +362,12 @@ The application allows users to create, edit, delete, and manage their notes sea
 
 This project requires the following dependencies:
 
-- **Programming Language:** HTML
+- **Programming Language:** Javascript
 - **Package Manager:** Npm
 
 ### Installation
 
-Build NotesAPP from the source and intsall dependencies:
+Build NotesAPP from the source and install dependencies:
 
 1. **Clone the repository:**
 
@@ -386,42 +384,13 @@ Build NotesAPP from the source and intsall dependencies:
 3. **Install the dependencies:**
 
 <!-- SHIELDS BADGE CURRENTLY DISABLED -->
-	<!-- [![npm][npm-shield]][npm-link] -->
-	<!-- REFERENCE LINKS -->
-	<!-- [npm-shield]: None -->
-	<!-- [npm-link]: None -->
-
-	**Using [npm](None):**
-
-	```sh
-	❯ echo 'INSERT-INSTALL-COMMAND-HERE'
-	```
+	❯ npm install
 
 ### Usage
 
 Run the project with:
 
-**Using [npm](None):**
-```sh
-echo 'INSERT-RUN-COMMAND-HERE'
-```
-
-### Testing
-
-Notesapp uses the {__test_framework__} test framework. Run the test suite with:
-
-**Using [npm](None):**
-```sh
-echo 'INSERT-TEST-COMMAND-HERE'
-```
-
----
-
-## Roadmap
-
-- [X] **`Task 1`**: <strike>Implement feature one.</strike>
-- [ ] **`Task 2`**: Implement feature two.
-- [ ] **`Task 3`**: Implement feature three.
+**Using live server:**
 
 ---
 
